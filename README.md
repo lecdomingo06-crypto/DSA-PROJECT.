@@ -280,3 +280,41 @@ int main() {
     return 0;
 }
 ```
+
+---
+
+### **Observations**
+- Queue operations behave correctly: customers are served in arrival order.
+- The stack maintains accurate logs and automatically removes the oldest when full.
+- Ticket assignment is sequential and consistent.
+- System is stable even at maximum queue or stack capacity.
+- The implementation models real-world service flow effectively.
+
+---
+
+## 📊 Time Complexity Summary
+### Queue
+- `enqueue()` → **O(1)**
+- `dequeue()` → **O(1)**
+- `showNext()` → **O(1)**
+- `display()` → **O(n)**
+
+### Stack
+- `push()` → **O(1)** (or **O(n)** when shifting)
+- `display()` → **O(n)**
+
+**Overall:** Mostly **O(1)** operations with occasional **O(n)** for printing or shifting.
+
+---
+
+## 📂 Source Code Included
+Full source code contains:
+- `Queue` class (array-based)
+- `Stack` class (array-based)
+- Main menu system for adding, serving, and viewing customers
+
+---
+
+## 👨‍💻 Author
+**Oslec Domingo – Data Structures Project**
+
