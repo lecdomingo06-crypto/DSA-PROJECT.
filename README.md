@@ -1,3 +1,8 @@
+---
+## README LINK
+https://lecdomingo06-crypto.github.io/DSA-PROJECT./
+
+---
 # 🎫 Event Ticketing System (Queue + Stack)
 
 This project simulates an **Event Ticketing System** using two fundamental data structures:
